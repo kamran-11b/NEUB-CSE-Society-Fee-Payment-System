@@ -1,0 +1,35 @@
+/* 
+     Author : Azhar Hussain Masum
+     Email: azharhussain4647@gmail.com
+     Website:http://www.azharmasum.com
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+
+
+/*--Extra-Small Device---*/
+@media (max-width:767px){
+    footer p{
+        text-align: center;
+        
+    }
+    footer ul {
+        text-align: center!important;
+    }
+}
+
+/* --Small Device-- */
+@media (min-width:768px) and (max-width: 991px){
+
+}
+
+/* Medium Device */
+@media (min-width:992px) and (max-width:1199px){
+
+}
+
+/*---Large Device---*/
+@media (min-width:1200px){
+
+}
+
+

@@ -1,0 +1,106 @@
+
+
+.mx-auto{
+    margin: 0 auto;
+}
+.pt-50{
+    padding-top:50px;
+}
+.pb-100{
+    padding-bottom:100px;
+}
+body{
+
+}
+
+.navbar-default {
+    background-color: #24355C;
+    border-color: #24355C;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+
+}
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: rgba(255,255,255,.75);
+}
+.title{
+    margin-bottom: 45px;
+}
+.social a {
+    padding: 0;
+    width: 30px;
+    display: inline-block;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #24355C;
+    color: #fff;
+    transition: 0.47s ease all;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #555;
+}
+/*-------Multiple item slide start-----------*/
+#multiple .owl-nav {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    margin-bottom: 10px;
+}
+#multiple .owl-theme .owl-nav [class*=owl-] {
+    color: #132641;
+    font-size: 20px;
+    margin: 5px;
+    padding: 7px 20px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: 0.41s ease all;
+}
+#multiple .owl-theme .owl-nav [class*=owl-]:hover{
+    background: transparent;
+    display: inline-block;
+    border: 1px solid #019EA3;
+    border-radius: 3px;
+}
+#multiple .owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    margin-top:8px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media(max-width:600px){
+    #basic{
+        height: 300px!important;
+    }
+} /*-------Multiple item slide End-----------*/
+
+
+#contact{
+    background: #2F363E;
+
+}
+#contact h2{
+    color: #fff;
+}
+footer{
+    padding-top: 10px;
+    background: #fcf8e3; 
+}
+footer p{
+    font-weight: bold;
+}
